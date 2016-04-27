@@ -17,9 +17,7 @@ AWSリソース
   * "モノ"
   * ポリシ
 
-* AWS Lambda function
-
-  * IAMロール
+* IAMロール
 
 * Amazon ESインスタンス (課金されるので注意)
 
@@ -140,3 +138,8 @@ e.g.) screen コマンドによるアクセス
 .. code-block:: none
 
   screen /dev/ttyUSB0 115200
+
+AWS IoTのDevice Shadowでパトライトを制御する
+--------------------------------------------
+
+:doc:`07` へ

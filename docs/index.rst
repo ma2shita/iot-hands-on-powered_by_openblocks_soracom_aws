@@ -24,16 +24,19 @@ OpenBlocks IoT BX1 (以下 BX1) を使用し、富士通コンポーネント社
    04
    05
    06
+   07
 
 :doc:`00` へ進む
 
 時間配分
 ~~~~~~~~
 
-#. [30m] BX1のWi-Fi AP設定とSORACOM Air(3Gネットワーク)設定
-#. [15m] センサーとBX1の接続
+#. [20m] BX1のWi-Fi AP設定とSORACOM Air(3Gネットワーク)設定
+#. [20m] センサーとBX1の接続
 #. [10m] Amazon ESのインスタンス作成と設定
-#. [30m] AWS IoTの設定
-#. [30m] BX1とAWS IoTの接続
-#. [15m] 自習室
+#. [20m] AWS IoTの設定
+#. [20m] BX1とAWS IoTの接続
+#. [ 5m] あとかたづけ
+#. [30m] Extra: Device Shadowでパトライトを制御
 
+※冒頭説明からあとかたづけまで100分程度のコンテンツです
