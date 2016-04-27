@@ -66,7 +66,7 @@ Windowsの方: 下記の通りダブルクオーテーションのエスケー�
 
 .. code-block:: doscon
 
-    curl -X PUT ${YOUR_ES_ENDPOINT}/es-test/es0/1 -d "{""deviceId"":""es-test0"",""field1"":1,""@timestamp"":""2016-05-19T10:10:50+0900""}"
+    curl -X PUT %YOUR_ES_ENDPOINT%/es-test/es0/1 -d "{""deviceId"":""es-test0"",""field1"":1,""@timestamp"":""2016-05-19T10:10:50+0900""}"
 
 コマンドの投入結果は下記のようになります
 
