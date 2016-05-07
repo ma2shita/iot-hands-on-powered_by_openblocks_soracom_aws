@@ -37,6 +37,7 @@ OpenBlocks IoT BX1 (以下 BX1) を使用し、富士通コンポーネント社
 #. [20m] AWS IoTの設定
 #. [20m] BX1とAWS IoTの接続
 #. [ 5m] あとかたづけ
-#. [30m] Extra: Device Shadowでパトライトを制御
+#. [15m] 自習室: SORACOM BeamでAWS IoTの認証処理をオフロード
+#. [30m] 自習室: Device Shadowでパトライトを制御
 
 ※冒頭説明からあとかたづけまで100分程度のコンテンツです

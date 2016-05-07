@@ -29,14 +29,24 @@ AWSリソース
 
 * `太陽光パネルの発電量をAWS IoTとAmazon Elasticsearch Serviceを使って可視化してみる <http://qiita.com/ToshiakiEnami/items/7b4b3090f3687979d21a>`_
 
+自習室: SORACOM BeamでAWS IoTの認証処理をオフロード
+----------------------------------------------------
+
+:doc:`07` へ
+
+自習室: AWS IoTのDevice Shadowでパトライトを制御する
+----------------------------------------------------
+
+:doc:`08` へ
+
 .. _sensordata:
 
 センサーデータフォーマット
 --------------------------
 
-センサーデータは、BX1を通過すると下記のようなJSONデータとなります
-このフォーマットをAWS IoT内のRule Engineや、Lambdaで処理することが可能です
-(jqを使って整形済み。コメントは付与されません)
+| センサーデータは、BX1を通過すると下記のようなJSONデータとなります
+| このフォーマットをAWS IoT内のRule Engineや、Lambdaで処理することが可能です
+| (jqを使って整形済み。コメントは付与されません)
 
 富士通コンポーネント社製 温度・加速度センサーデバイス "FWM8BLZ02"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -52,7 +62,7 @@ AWSリソース
       "accelZ": -0.113                         // Z方向 加速度 G
     }
 
-また、AWS IoTのDevice shadowで取得すると ``state`` 等、AWS IoTの属性が付与されます
+BX1の"AWSIOT"経由でデータ送信された場合、 ``{state: {reported: DATA}}`` としたAWS IoTのDevice Shadowのフォーマットに変形されます
 
 .. code-block:: json
 
@@ -69,8 +79,8 @@ AWSリソース
       }
     }
 
-Texas Instruments社製 多機能/開発用センサー sensorTag CC2541
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Texas Instruments社製 多機能/開発用センサー SensorTag CC2541DK
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: json
 
@@ -93,7 +103,7 @@ Texas Instruments社製 多機能/開発用センサー sensorTag CC2541
       "time": "2015-11-19T10:29:20.529+0900" // 計測日時(BX1で付与)
     }
 
-また、AWS IoTのDevice shadowで取得すると ``state`` 等、AWS IoTの属性が付与されます
+BX1の"AWSIOT"経由でデータ送信された場合、 ``{state: {reported: DATA}}`` としたAWS IoTのDevice Shadowのフォーマットに変形されます
 
 .. code-block:: json
 
@@ -139,7 +149,4 @@ e.g.) screen コマンドによるアクセス
 
   screen /dev/ttyUSB0 115200
 
-AWS IoTのDevice Shadowでパトライトを制御する
---------------------------------------------
 
-:doc:`07` へ
