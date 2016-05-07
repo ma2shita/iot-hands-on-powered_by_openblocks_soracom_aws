@@ -1,7 +1,7 @@
 BX1とAWS IoTの接続
 ==================
 
-本章のゴール: **センサーからのデータがAWS IoTとAWS Lambdaを通じてAmazon ES上のKibana上で確認できる**
+本章のゴール: **センサーからのデータがAWS IoTを通じてAmazon ES上のKibana上で確認できる**
 
 作業の位置づけ;
 
@@ -134,13 +134,11 @@ AWS IoTの証明書ファイル・プライベートキーファイル・ルー�
     - 証明書はACTIVEになっているか
     - 有効なポリシがアタッチされているか
 
-  - ルールは正しくLambdaを呼び出すようになっているか
+  - ルールは正しくAmazon Elasticsearch ServiceへデータをPUTできるようになっているか
 
-4. AWS Lambdaを呼び出せているか (CloudWatchを確認してください)
+4. Amazon Elasticsearch ServiceへのデータPUT (CloudWatchを確認してください)
 
   - 有効なロールがセットされているか
-  - Elasticsearch Serviceのエンドポイントはあっているか
-
 
 BX1からAWS IoTへの送信状況の確認
 ````````````````````````````````
