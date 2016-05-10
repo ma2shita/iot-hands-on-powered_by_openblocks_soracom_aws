@@ -1,7 +1,9 @@
-Amazon ESのインスタンス作成と設定
-=================================
+Amazon Elasticsearch Serviceのインスタンス作成と設定
+====================================================
 
-本章のゴール: **Amazon ES上のKibanaでテストデータのグラフが表示される**
+本章のゴール: **Amazon Elasticsearch Service上のKibanaでテストデータのグラフが表示される**
+
+※以下、文中ではAmazon Elasticsearch Serviceを以下Amazon ESと略します
 
 作業の位置づけ;
 
