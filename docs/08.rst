@@ -19,11 +19,9 @@ https://s3-ap-northeast-1.amazonaws.com/ma2shita/patlite_control_w_awsiot.html
 #. まずは右側のON/OFF制御を行ってみましょう
 #. 気づいた事を話し合ってみましょう
 
-TODO: 実際のデモと差し替える
-
 .. raw:: html
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Oyw2I6PMRJo" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/B7TAs97aNd8" frameborder="0" allowfullscreen></iframe>
 
 概要
 ----
