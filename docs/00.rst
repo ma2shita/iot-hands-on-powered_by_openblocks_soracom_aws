@@ -7,6 +7,8 @@ OpenBlocks IoT BX1 (以下 BX1) を使用し、富士通コンポーネント社
 
 .. image:: images/bx1_00_overview.png
 
+※ `上図SVG <_static/bx1_00_overview.svg>`_
+
 #. :doc:`01`
 #. :doc:`02`
 #. :doc:`03`
@@ -15,6 +17,8 @@ OpenBlocks IoT BX1 (以下 BX1) を使用し、富士通コンポーネント社
 #. :doc:`06`
 #. :doc:`07`
 #. :doc:`08`
+
+※テキストのPDFは `こちら(5.5MB P74) <_static/IoT-Hands-On-OpenBlocks-IoT-SORACOM-AWS.pdf>`_
 
 ハンズオンの前に
 ================

@@ -7,6 +7,8 @@ AWS IoTの設定
 
 .. image:: images/bx1_04_overview.png
 
+※ `上図SVG <_static/bx1_04_overview.svg>`_
+
 概要
 ----
 

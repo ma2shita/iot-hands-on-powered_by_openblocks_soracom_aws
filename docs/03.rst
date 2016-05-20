@@ -9,6 +9,8 @@ Amazon Elasticsearch Serviceのインスタンス作成と設定
 
 .. image:: images/bx1_03_overview.png
 
+※ `上図SVG <_static/bx1_03_overview.svg>`_
+
 Amazon ESのクラスタを作成
 -------------------------
 

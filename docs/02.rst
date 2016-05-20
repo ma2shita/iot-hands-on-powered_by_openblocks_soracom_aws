@@ -7,6 +7,8 @@
 
 .. image:: images/bx1_02_overview.png
 
+※ `上図SVG <_static/bx1_02_overview.svg>`_
+
 センサーをBX1に登録する
 -----------------------
 

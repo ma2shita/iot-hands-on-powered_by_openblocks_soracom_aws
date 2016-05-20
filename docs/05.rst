@@ -7,6 +7,8 @@ BX1とAWS IoTの接続
 
 .. image:: images/bx1_05_overview.png
 
+※ `上図SVG <_static/bx1_05_overview.svg>`_
+
 準備
 ----
 
