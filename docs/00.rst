@@ -74,7 +74,7 @@ SORACOM Airを使用するため、事前にSORACOMアカウントの取得並�
     * FTDIシリアルドライバーインストール済
     * シリアルコンソール制御用ターミナルソフトインストール済 (e.g. TeraTerm, GNU screen)
     * curlやwgetなどHTTPコールが可能なツール
-    * Chrome等のモダンブラウザ(IEはNGですのでご注意)
+    * Chrome等のモダンブラウザ(Internet ExplorerはNGですのでご注意)
 
   * 参加者個人のAWSアカウント
   * 有効なクレジットカード (SORACOM Airのアクティベーションに使用)
