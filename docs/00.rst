@@ -73,12 +73,10 @@ SORACOM Airを使用するため、事前にSORACOMアカウントの取得並�
 
   * ノートPC
 
-    * Wi-Fi接続可
-    * USBポート使用可 (Aタイプ1ポート以上)
-    * FTDIシリアルドライバーインストール済
-    * シリアルコンソール制御用ターミナルソフトインストール済 (e.g. TeraTerm, GNU screen)
+    * Wi-Fiで2.4GHz/5GHz双方への接続可 (5GHzのみは不可)
+    * USBポート使用可 (AタイプでUSB3.0以上(900mA以上の給電)の1ポート以上)
     * curlやwgetなどHTTPコールが可能なツール
-    * Chrome等のモダンブラウザ(Internet ExplorerはNGですのでご注意)
+    * Chrome等のモダンブラウザ(Internet Explorerは不可)
 
   * 参加者個人のAWSアカウント
   * 有効なクレジットカード (SORACOM Airのアクティベーションに使用)
@@ -86,7 +84,8 @@ SORACOM Airを使用するため、事前にSORACOMアカウントの取得並�
 * あると便利なもの
 
   * スマートフォン (本ドキュメントを参照しながらの作業)
-
+  * FTDIシリアルドライバー
+  * シリアルコンソール制御用ターミナルソフトインストール済 (例: TeraTerm, GNU screen)
 
 .. note::
 

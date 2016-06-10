@@ -14,6 +14,10 @@ Amazon Elasticsearch Serviceのインスタンス作成と設定
 Amazon ESのクラスタを作成
 -------------------------
 
+.. warning::
+
+  * OpenBlocks IoTのWi-Fi APに接続をしている場合は、会場のWi-Fi等に切り替えてください。切り替えない場合、AWS管理画面へ接続できない・ロードが遅い等の問題が起こる他、SORACOM Airの通信料がかかる場合があります
+
 Get started (もしくはダッシュボードの Create a new domain) からAmazon ESのインスタンス作成のウィザードを開始します
 
 それぞれのステップでは、下記項目を変更するようにしてください (それ以外の項目はデフォルト値でOKです)
