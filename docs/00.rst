@@ -101,6 +101,4 @@ SORACOM Airを使用するため、事前にSORACOMアカウントの取得並�
 
 ソラコムの料金詳細は `SORACOM Airのご利用料金 <https://soracom.jp/services/air/price/>`_ をご覧ください
 
-SORACOM Airには無料分利用枠があり、本ハンズオンでは無料枠内で収まる程度の通信となる見込みですが、その限りではありませんのでご承知ください
-
 :doc:`01` へ進む
